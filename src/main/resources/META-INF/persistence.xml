@@ -14,7 +14,7 @@
 
             <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://avnadmin:AVNS_PPMcIA3iHVb8U8fpyp6@mysql-2941b198-khadijagoumarzouazte-43d2.a.aivencloud.com:17966/study?ssl-mode=REQUIRED" />
             <property name="jakarta.persistence.jdbc.user" value="avnadmin" />
-            <property name="jakarta.persistence.jdbc.password" value="" />
+            <property name="jakarta.persistence.jdbc.password" value="AVNS_PPMcIA3iHVb8U8fpyp6" />
 
             <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
             <property name="hibernate.archive.autodetection" value="class" />
