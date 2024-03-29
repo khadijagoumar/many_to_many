@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <?xml version="1.0" encoding="UTF-8"?>
-
 <persistence version="2.2"
              xmlns="http://xmlns.jcp.org/xml/ns/persistence"
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -10,25 +8,19 @@
 
 
     <persistence-unit name="StudentPU">
-
-        <provider>org.hibernate.ejb.HibernatePersistence</provider>
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
 
         <properties>
 
-            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/study" />
-
-            <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver" />
-
-            <property name="hibernate.connection.username" value="root" />
-
-            <property name="hibernate.connection.password" value="root" />
-
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://avnadmin:AVNS_PPMcIA3iHVb8U8fpyp6@mysql-2941b198-khadijagoumarzouazte-43d2.a.aivencloud.com:17966/study?ssl-mode=REQUIRED" />
+            <property name="jakarta.persistence.jdbc.user" value="avnadmin" />
+            <property name="jakarta.persistence.jdbc.password" value="AVNS_PPMcIA3iHVb8U8fpyp6" />
+            <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
             <property name="hibernate.archive.autodetection" value="class" />
 
+
             <property name="hibernate.show_sql" value="true" />
-
             <property name="hibernate.format_sql" value="true" />
-
             <property name="hbm2ddl.auto" value="update" />
 
         </properties>
